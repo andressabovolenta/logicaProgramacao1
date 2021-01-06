@@ -13,6 +13,7 @@ namespace LogicaProgramacao1
             //bool booleano = false;
             //Console.WriteLine(hello);
 
+
             //ARRAYS:
             //int[] numeros = new int[5];
             //numeros[0] = 1;
@@ -22,6 +23,7 @@ namespace LogicaProgramacao1
             //numeros[4] = 125;
             //Console.WriteLine(numeros[3]);
 
+
             //EXPRESSÕES LÓGICAS e CONSTANTES:
             //const int constInteiro = 20;
             //int inteiro1 = 10;
@@ -30,6 +32,7 @@ namespace LogicaProgramacao1
             //Console.WriteLine(soma);
             //inteiro1 = 50 + soma;
             //Console.WriteLine(inteiro1 * 2);
+
 
             //CONCATENAÇÃO:
             //string bemVindo = "Seja bem-vinda, ";
@@ -42,6 +45,7 @@ namespace LogicaProgramacao1
             //string idade = "30";
             //string bemVindo = $"Seja bem-vinda, {nome}. Sua idade é de {idade} anos.";
             //Console.WriteLine(bemVindo);
+
 
             //OPERADORES RELACIONAIS
             //bool boolean = false;
@@ -72,6 +76,7 @@ namespace LogicaProgramacao1
             //{
             //    Console.WriteLine("A condição é falsa!");
             //}
+
 
             //OPERADORES LÓGICOS && || !
             //int numero = 100;
@@ -112,6 +117,27 @@ namespace LogicaProgramacao1
             //{
             //    Console.WriteLine("Você é rico!");
             //}
+
+
+            //CASTING/PARSE:
+            //int idade = 20;
+            //string frase = "A minha idade é de: ";
+            //Console.WriteLine(frase);
+
+            //string idade1 = "20";
+            //string idade2 = "30";
+            //int somaIdades = Convert.ToInt32(idade1) + Convert.ToInt32(idade2);
+            //Console.WriteLine(somaIdades);
+
+            //bool booleano = true;
+            //string frase = booleano.ToString();
+            //int inteiro = Convert.ToInt32(frase);
+
+
+            //ENTRADA DE DADOS (INPUT):
+            //Console.WriteLine("Digite o seu nome:");
+            //string nome = Console.ReadLine();
+            //Console.WriteLine($"O seu nome é {nome}.");
 
         }
     }
